@@ -1,0 +1,3 @@
+SEASONS
+
+O projeto Seasons é uma startup que busca vincular conhecimento nas áreas de Data Science e Data Analytics para a coleta, processamento e utilização de dados metereológicos com o fim de fornecer o mais preciso sistema de irrigação e drenagem de pequeno à médio porte do mercado.
