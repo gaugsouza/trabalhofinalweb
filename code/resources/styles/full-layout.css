@@ -1,0 +1,17 @@
+/*HTML reset*/
+* {
+    margin: 0;
+}
+
+@media only screen and (max-height: 1080px){
+    .teste{
+        width: 100%;
+        height: 100vh;
+    }
+    .red{
+        background: red;
+    }
+    .blue{
+        background: blue;
+    }
+}
