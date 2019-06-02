@@ -217,6 +217,32 @@
         cursor: pointer;
     }
     /*End Contribute CSSes*/
+    
+.next {
+     position: fixed;
+    top: -3%;
+    left: 1%;
+    background: transparent;
+	height: 50px; width: 50px;
+	border: 1px solid tomato;
+    border-width: 2px 2px 0 0;
+	transform: rotate(-225deg);
+}
+.prev {
+    position: fixed;
+    top: 2%;
+    left: 5%;
+    background: transparent;
+	height: 50px; width: 50px;
+	border: 1px solid tomato;
+    border-width: 2px 2px 0 0;
+	transform: rotate(-45deg);
 }
 
-
+html {
+    overflow: -moz-scrollbars-none;
+}
+    
+::-webkit-scrollbar {
+  display:none;
+}
