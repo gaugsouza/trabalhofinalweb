@@ -80,11 +80,11 @@
         max-width: 50vw;
     }
     .carousel-introduction{
-        width: 400px;
+        width: auto;
         height: 33vh;
     }
     .carousel-introduction img.introduction-carousel-images {
-        width: 400px;
+        width: auto;
         height: 33vh;
         border: 2px solid #a02400;
         margin-left: 1.5vw;
@@ -92,11 +92,11 @@
     /*End Introduction CSSes*/
     /*Begin About Us CSSes*/
     .carousel-about-us{
-        width: 400px;
+        width: auto;
         height: 100vh;
     }
     .carousel-about-us img.about-us-carousel-images {
-        width: 400px;
+        width: auto;
         height: 100vh;
     }
     /*End About Us CSSes*/
