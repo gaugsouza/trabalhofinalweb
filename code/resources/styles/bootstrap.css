@@ -5095,13 +5095,13 @@ a.close.disabled{
     margin-right:-100%;
     -webkit-backface-visibility:hidden;
     backface-visibility:hidden;
-    transition:-webkit-transform .6s ease-in-out;
-    transition:transform .6s ease-in-out;
-    transition:transform .6s ease-in-out,-webkit-transform .6s ease-in-out
+    transition:-webkit-transform 1s ease-in-out;
+    transition:transform 1s ease-in-out;
+    transition:transform 1s ease-in-out,-webkit-transform 1s ease-in-out
 }
 @media (prefers-reduced-motion:reduce){
     .carousel-item{
-        transition:none
+        transition: 1s;
     }
 }
 .carousel-item-next,.carousel-item-prev,.carousel-item.active{
