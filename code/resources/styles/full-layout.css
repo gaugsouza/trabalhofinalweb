@@ -30,7 +30,7 @@
     }
     .body-text{
         margin: 1vw 1.5vw 1vw 1.5vw;        
-        font-size: 2vw;
+        font-size: 1.75vw;
         text-align: justify;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
@@ -74,18 +74,24 @@
     }
     /*End Home CSSes*/
     /*Begin Introduction CSSes*/
-    .introduction{
-        background-size: cover;
-    }
     .introduction-woman{
         height: 100vh;
         width: auto;
         max-width: 50vw;
     }
-    .introduction-carousel-images{
-        height: 100%;    
+    .carousel img.introduction-carousel-images {
+        width: auto;
+        height: 33vh;
+        border: 2px solid #a02400;
+        margin-left: 1.5vw;
     }
     /*End Introduction CSSes*/
+    /*Begin About Us CSSes*/
+    .carousel img.about-us-carousel-images {
+        width: auto;
+        height: 100vh;
+    }
+    /*End About Us CSSes*/
     /*Begin See More CSSes*/
     .see-more-title-image{
         margin-top: 1vw;
@@ -99,24 +105,23 @@
         justify-content: center;
     }
     .see-more-small-info-box{
-        margin: 0 2.5vw 0 2.5vw;
-        width: 40vw;
+        margin: 0 1.25vw 0 1.25vw;
+        width: 45vw;
         height: 20vw;
-        border: 5px solid #471101;
+        border: 2px solid #471101;
         border-radius: 5px;
     }
     .see-more-sub-small-info-box{
-        width: 20vw;
-        height: 15vw;
-        border: 5px solid #471101;
+        width: 46.5%;
+        height: 90%;        
     }
     .see-more-large-info-box{
-        margin: 2.5vw 2.5vw 0 2.5vw;
-        width: 86vw;
+        margin: 0 1.25vw 0 1.25vw;
+        width: 92.5vw;
         height: 15vw;
-        border: 0.5px solid;
-        border: 5px solid #471101;
+        border: 2px solid #471101;
         border-radius: 5px;
+        overflow-x: scroll;
     }
     .see-more-small-info-box-flex-container{
         display: flex;
@@ -124,10 +129,24 @@
         align-items: center;
         justify-content: space-evenly;
     }
+    .see-more-small-box-image{
+        width: 100%;
+        height: 100%;
+        border: 0.1px solid #471101;
+        cursor: pointer;
+    }
+    .see-more-text-title{
+        font-weight: bold;
+        font-size: 1.75vw;
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .see-more-text-body{
+        font-size: 1.25vw;
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
     /*End See More CSSes*/
 }
-.carousel img {
-    width: 400px;
-    height: 200px;
-}
+
 

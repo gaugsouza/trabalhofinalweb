@@ -7,8 +7,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </head>
-    
+    </head>    
     <body>
         <div class="section home">
             <div class="home-opaque-div"></div>
@@ -17,7 +16,7 @@
                 <button class="home-start-button"> Me mostre! </button>
             </div>
         </div>
-        <div class="section introduction">
+        <div class="section">
             <div class="grid-container">
                 <div class="flex-container">
                     <img class="title-image" src="resources/images/seasons.png">
@@ -33,39 +32,46 @@
                             irrigação e drenagem de pequeno à médio porte do mercado.
                         </p>
                     </div>
-<<<<<<< HEAD
-                    <div>
-                       carrossel
-                    </div>                    
-=======
-                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                    <div id="introduction-carousel" class="carousel slide" data-ride="carousel">
                         <div class="carousel">
-                        <div class="carousel-item active">
-                            <img src="resources/images/introduction-1.jpg">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="resources/images/introduction-2.jpg">
-                        </div>
-                        <div class="carousel-item">
-                            <img src="resources/images/introduction-3.jpg">
-                        </div>
-                        </div>
-    
-                        <a class="carousel-control-prev" href="#carousel" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
+                            <div class="carousel-item active">
+                                <img class="introduction-carousel-images" src="resources/images/introduction-1.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="introduction-carousel-images" src="resources/images/introduction-2.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="introduction-carousel-images" src="resources/images/introduction-3.jpg">
+                            </div>
+                        </div>    
+                        <a class="carousel-control-prev" href="#introduction-carousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
                         </a>
-                        <a class="carousel-control-next" href="#carousel" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
+                        <a class="carousel-control-next" href="#introduction-carousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
                         </a>
                     </div>                 
->>>>>>> 8b983cb651a6915632cd883bbb01c891c01d1b65
                 </div>
                 <img class="introduction-woman" src="resources/images/introduction-woman.jpg">
             </div>
         </div>
-        <div class="section about-us">
+        <div class="section">
             <div class="grid-container">
-                <img class="introduction-woman" src="resources/images/introduction-woman.jpg">
+                
+                <div id="about-us-carousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel">
+                        <div class="carousel-item active">
+                            <img class="about-us-carousel-images" src="resources/images/about-us-gabriel.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="about-us-carousel-images" src="resources/images/about-us-guilherme.png">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="about-us-carousel-images" src="resources/images/about-us-vitor.png">
+                        </div>
+                    </div>    
+                </div>  
+
                 <div class="flex-container">
                     <img class="title-image" src="resources/images/sobre-nos.png">
                     <div class="body-text">
@@ -95,21 +101,47 @@
                 </div>
             </div>            
         </div>
-        <div class="section see-more">
+        <div class="section">
             <div class="flex-container">
                 <img class="see-more-title-image" src="resources/images/veja-mais-sobre-a-seasons.png">
                 <div class="see-more-flex-container">
                     <div class="see-more-small-info-box see-more-small-info-box-flex-container">
-                        <div class="body-text" style="max-width: 10vw;font-size: smaller">
-                                aaaaaaaaaaaaaaaaa
-                                aaaaaaaaaaaaaaaa          
+                        <div class="see-more-sub-small-info-box">
+                            <p class="see-more-text-title">
+                                Leia sobre nossas ideias, tecnologias e objetivos!
+                            </p>
+                            <p class="see-more-text-body">
+                                Aqui podem ser encontradas informações em relação à utilização das tecnologias
+                                inteligentes do mercado e seu objetivo no projeto Seasons!
+                            </p>
                         </div>                        
-                        <div class="see-more-sub-small-info-box"></div>
+                        <div class="see-more-sub-small-info-box">
+                            <a href="resources/documents/scheduling-irrigations-with-computers.pdf" target="_blank">
+                                <img class="see-more-small-box-image" src="resources/images/see-more-1.jpeg">
+                            </a>
+                        </div>
                     </div>
-                    <div class="see-more-small-info-box"></div>
+                    <div class="see-more-small-info-box see-more-small-info-box-flex-container">
+                        <div class="see-more-sub-small-info-box">
+                            <p class="see-more-text-title">
+                                Veja nossos protótipos de produtos e catálogos!
+                            </p>
+                            <p class="see-more-text-body">
+                                Aqui podem ser encontradas informações em relação aos protótipos dos sistemas de
+                                irrigação e drenagem da Seasons. Além disso, um catálogo com possíveis novos produtos!
+                            </p>
+                        </div>                        
+                        <div class="see-more-sub-small-info-box">
+                            <a href="resources/documents/catalogo-irrigadores.pdf" target="_blank">
+                                <img class="see-more-small-box-image" src="resources/images/see-more-2.png">
+                            </a>
+                        </div>
+                    </div>
                 </div>
+                <div class="see-more-flex-container">
                     
-                    <div class="see-more-large-info-box">Noticias</div>
+                    <div class="see-more-large-info-box">
+                    </div>
                 </div>
             </div>
         </div>
