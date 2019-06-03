@@ -34,6 +34,24 @@
         text-align: justify;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 8vw;
+        border: 1px solid #471101;
+        background-color: darkolivegreen;
+        background-size: cover;
+        margin-top: 2vh;
+        align-items: center;
+    }
+    .footer-seasons-logo{
+        height: 6vw;
+        width: auto;
+    }
     /*End General CSSes*/
     /*Begin Home CSSes*/
     .home-flex-container{
@@ -169,6 +187,35 @@
         color: #a02400;
     }
     /*End See More CSSes*/
+    /*Begin Contribute CSSes*/
+    .contribute-text-title{
+        font-weight: bold;
+        font-size: 2.25vw;
+        text-align: left;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .contribute-info-box{        
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin: 1.25vw;
+        width: 45vw;
+        height: 100%;
+        border: 2px solid black;
+    }
+    .contribute-grid-container{
+        display: grid;
+        grid-template-columns: 1fr auto;
+        align-content: center;
+        height: 100vh;
+    }
+    .contribute-icon{
+        width: auto;
+        height: 6.5vw;
+        cursor: pointer;
+    }
+    /*End Contribute CSSes*/
 }
 
 
