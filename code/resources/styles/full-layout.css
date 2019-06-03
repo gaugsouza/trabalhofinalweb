@@ -99,8 +99,9 @@
         max-width: 50vw;
     }
     .carousel-introduction{
-        width: auto;
+        width: 420px;
         height: 33vh;
+        overflow: hidden;
     }
     .carousel-introduction img.introduction-carousel-images {
         width: auto;
@@ -113,6 +114,7 @@
     .carousel-about-us{
         width: auto;
         height: 100vh;
+        overflow: hidden;
     }
     .carousel-about-us img.about-us-carousel-images {
         width: auto;
@@ -244,11 +246,12 @@
 }    
     
 html {
-    overflow: -moz-scrollbars-none;
+    overflow: hidden;
 }
     
 button:focus {outline:0;}
 
 button::-moz-focus-inner {
   border: 0;
+}
 }
