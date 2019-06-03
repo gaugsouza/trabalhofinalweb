@@ -83,12 +83,13 @@
         border: none; 
         width: 12.5vw;
         height: 2.5vw;
-        font-size: 1.25vw;
+        font-size: 1.5vw;
         font-family: Calibri;
         font-weight: 500;
         background-color: #471101;
         color: rgb(208, 228, 235);
         cursor: pointer;
+        text-align: center;
     }
     /*End Home CSSes*/
     /*Begin Introduction CSSes*/
