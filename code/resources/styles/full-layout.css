@@ -1,28 +1,81 @@
-/*HTML reset*/
-* {
-    margin: 0;
-    padding: 0;
+/*General*/
+.section{
+    width: 100%;
+    height: 100vh;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    justify-items: end;
+    height: 100vh;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    margin-top: 1%;
+    background-color: rgb(106, 145, 39);
+    align-items: center;
+}
+.footer-seasons-logo{
+    height: 100%;
+    width: auto;
+}
+button:focus {
+    outline:0;
 }
 
-@media only screen and (max-height: 1080px){
-    /*Begin General CSSes*/
-    .section{
-        width: 100%;
-        height: 100vh;
-    }
-    .flex-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        height: 100%;
-    }
-    .grid-container{
-        display: grid;
-        grid-template-columns: 1fr auto;
-        justify-items: end;
-        height: 100vh;
-    }
+button::-moz-focus-inner {
+    border: 0;
+}
+/*Home*/
+.home-flex-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.home{
+    background: url("../images/sprinkler-gif.gif");
+    background-size: cover;
+}
+.home-opaque-div{
+    background-color: darkolivegreen;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*See more*/
+.see-more-flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.see-more-image{
+    width: 100%;
+    height: 100%;
+    border: 0.1px solid #471101;
+    cursor: pointer;
+}
+/*Resolutions higher than 1366x768 */
+@media only screen and (min-width: 1367px){
+    /*General*/
     .title-image{
         margin-top: 1vw;
         width: 30vw;
@@ -34,46 +87,7 @@
         text-align: justify;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
-    .footer{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        height: 8vw;
-        border: 1px solid #471101;
-        background-color: darkolivegreen;
-        background-size: cover;
-        margin-top: 2vh;
-        align-items: center;
-    }
-    .footer-seasons-logo{
-        height: 6vw;
-        width: auto;
-    }
-    /*End General CSSes*/
-    /*Begin Home CSSes*/
-    .home-flex-container{
-        position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-    }
-    .home{
-        background: url("../images/sprinkler-gif.gif");
-        background-size: cover;
-    }
-    .home-opaque-div{
-        background-color: darkolivegreen;
-        opacity: 0.7;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-    }
+    /*Home*/
     .home-seasons-logo{
         width: 50vw;
         height: auto;
@@ -91,15 +105,13 @@
         cursor: pointer;
         text-align: center;
     }
-    /*End Home CSSes*/
-    /*Begin Introduction CSSes*/
+    /*Introduction*/
     .introduction-woman{
         height: 100vh;
         width: auto;
-        max-width: 50vw;
     }
     .carousel-introduction{
-        width: 420px;
+        width: auto;
         height: 33vh;
         overflow: hidden;
     }
@@ -107,10 +119,8 @@
         width: auto;
         height: 33vh;
         border: 2px solid #a02400;
-        margin-left: 1.5vw;
     }
-    /*End Introduction CSSes*/
-    /*Begin About Us CSSes*/
+    /*About Us*/
     .carousel-about-us{
         width: auto;
         height: 100vh;
@@ -120,18 +130,11 @@
         width: auto;
         height: 100vh;
     }
-    /*End About Us CSSes*/
-    /*Begin See More CSSes*/
+    /*See More*/
     .see-more-title-image{
         margin-top: 1vw;
         width: 80vw;
         height: auto;
-    }
-    .see-more-flex-container{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
     }
     .see-more-small-info-box{        
         display: flex;
@@ -160,12 +163,6 @@
         border-radius: 5px;
         overflow: auto;
     }
-    .see-more-image{
-        width: 100%;
-        height: 100%;
-        border: 0.1px solid #471101;
-        cursor: pointer;
-    }
     .see-more-text-title{
         font-weight: bold;
         font-size: 1.75vw;
@@ -189,8 +186,7 @@
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color: #a02400;
     }
-    /*End See More CSSes*/
-    /*Begin Contribute CSSes*/
+    /*Contribute*/
     .contribute-text-title{
         font-weight: bold;
         font-size: 2.25vw;
@@ -218,40 +214,5 @@
         height: 6.5vw;
         cursor: pointer;
     }
-    /*End Contribute CSSes*/
-    
-.next {
-     position: fixed;
-    top: -3%;
-    left: 1%;
-    background: transparent;
-	height: 50px; width: 50px;
-	border: 1px solid tomato;
-    border-width: 2px 2px 0 0;
-	transform: rotate(-225deg);
-}
-.prev {
-    position: fixed;
-    top: 2%;
-    left: 5%;
-    background: transparent;
-	height: 50px; width: 50px;
-	border: 1px solid tomato;
-    border-width: 2px 2px 0 0;
-	transform: rotate(-45deg);
-}
-    
-::-webkit-scrollbar {
-  display:none;
 }    
-    
-html {
-    overflow: hidden;
-}
-    
-button:focus {outline:0;}
 
-button::-moz-focus-inner {
-  border: 0;
-}
-}
