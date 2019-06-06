@@ -22,3 +22,8 @@ $.scrollify({
     afterResize:function() {},
     afterRender:function() {}
   });
+
+
+$('#button-intro').click(function(){
+  $.scrollify.move("#2");
+});
