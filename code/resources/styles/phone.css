@@ -1,4 +1,3 @@
-/*Resolutions higher than 1366x768 */
 /*General*/
 .title-image{
     width: 75vw;
@@ -139,7 +138,7 @@
 }
 .contribute-grid-container{
     display: grid;
-    grid-template-rows: 1fr auto;
+    grid-template-rows: auto auto;
     align-content: center;
     height: 100vh;
 }

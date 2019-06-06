@@ -57,8 +57,9 @@
     overflow: hidden;
 }
 .carousel-about-us img.about-us-carousel-images {
-    width: 40vw;
-    height: auto;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;   
 }
 /*See More*/
 .see-more-flex-container{
