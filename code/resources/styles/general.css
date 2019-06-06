@@ -1,0 +1,65 @@
+.section{
+    width: 100%;
+    height: 100vh;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 12%;
+    margin-top: 1%;
+    background-color: rgb(106, 145, 39);
+    align-items: center;
+}
+.footer-seasons-logo{
+    height: 100%;
+    width: auto;
+}
+button:focus {
+    outline:0;
+}
+button::-moz-focus-inner {
+    border: 0;
+}
+/*Home*/
+.home-flex-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.home{
+    background: url("../images/sprinkler-gif.gif");
+    background-size: cover;
+}
+.home-opaque-div{
+    background-color: darkolivegreen;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+/*See more*/
+.see-more-image{
+    width: 100%;
+    height: 100%;
+    border: 0.1px solid #471101;
+    cursor: pointer;
+}
+.see-more-sub-small-info-box{
+    width: 46.5%;
+    height: 90%;        
+}

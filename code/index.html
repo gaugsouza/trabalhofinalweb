@@ -5,11 +5,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
         <link rel="stylesheet" href="resources/styles/reset.css" >
-        <link rel="stylesheet" href="resources/styles/bootstrap.css">
-        <link rel="stylesheet" href="resources/styles/full-layout.css">
-        <script src="js/api-google-carousel.js"></script>
-        <script src="js/coudflare-carousel.js"></script>
-        <script src="js/bootstrap-carousel.js"></script>
+        <link rel="stylesheet" href="resources/styles/general.css">
+        <link rel="stylesheet" href="resources/styles/bootstrap.css">        
+        <link rel="stylesheet" media="(min-width: 1367px)" href="resources/styles/large.css">
+        <link rel="stylesheet" media="(max-width: 768px) and (orientation: portrait)" href="resources/styles/phone.css">
     </head>
     
     <body>
@@ -22,7 +21,7 @@
         </div>
         <div class="section" id="intro">
             <div class="grid-container">
-                <div class="flex-container">
+                <div class="flex-container introduction">
                     <img class="title-image" src="resources/images/seasons.png">
                     <div class="body-text">
                         <p>
@@ -30,7 +29,6 @@
                             nas áreas de Data Science e Data Analytics para a coleta, processamento
                             e utilização de dados metereológicos.
                         </p>
-                        <br>
                         <p>
                             O maior objetivo da Seasons é fornecer o mais preciso sistema de
                             irrigação e drenagem de pequeno à médio porte do mercado.
@@ -59,9 +57,32 @@
                 <img class="introduction-woman" src="resources/images/introduction-woman.jpg">
             </div>
         </div>
-        <div class="section">
+        <div class="section about-us">
             <div class="grid-container">
-                
+                <div class="flex-container flex-about-us">
+                    <img class="title-image" src="resources/images/sobre-nos.png">
+                    <div class="body-text">
+                        <p>
+                            Somos três estudantes do Instituto Federal de Educação, Ciência
+                            e Tecnologia de São Paulo com um pequeno projeto, mas grandes
+                            ambições.
+                        </p>
+                        <p>
+                            A ideia inicial era facilitar a execução de um processo tão
+                            repetitivo quanto importante, que é a rega das plantas. Com isso,
+                            chegamos à ideia de criar um sistema que precisa de uma única 
+                            configuração e após a instalação estar 100% pronto para uso, e o 
+                            melhor, de maneira autônoma!                            
+                        </p>
+                        <p>
+                            Porém, apesar de parecer um sonho, essa tecnologia pode acabar sendo
+                            muito custosa. Por isso, levamos também como filosofia a redução de
+                            custos e o oferecimento de diferentes produtos, para que não apenas os
+                            que possuem condições financeiras melhores possuam nosso produto, mas
+                            sim todos aqueles que precisam!
+                        </p>
+                    </div>         
+                </div>
                 <div id="about-us-carousel" class="carousel slide" data-ride="carousel">
                     <div class="carousel-about-us">
                         <div class="carousel-item active">
@@ -75,34 +96,6 @@
                         </div>
                     </div>    
                 </div>  
-
-                <div class="flex-container">
-                    <img class="title-image" src="resources/images/sobre-nos.png">
-                    <div class="body-text">
-                        <p>
-                            Somos três estudantes do Instituto Federal de Educação, Ciência
-                            e Tecnologia de São Paulo com um pequeno projeto, mas grandes
-                            ambições.
-                        </p>
-                        <br>
-                        <p>
-                            A ideia inicial era facilitar a execução de um processo tão
-                            repetitivo quanto importante, que é a rega das plantas. Com isso,
-                            chegamos à ideia de criar um sistema que precisa de uma única 
-                            configuração e após a instalação estar 100% pronto para uso, e o 
-                            melhor, de maneira autônoma!                            
-                        </p>
-                        <br>
-                        <p>
-                            Porém, apesar de parecer um sonho, essa tecnologia pode acabar sendo
-                            muito custosa. Por isso, levamos também como filosofia a redução de
-                            custos e o oferecimento de diferentes produtos, para que não apenas os
-                            que possuem condições financeiras melhores possuam nosso produto, mas
-                            sim todos aqueles que precisam!
-                        </p>
-                    </div>
-                        
-                </div>
             </div>            
         </div>
         <div class="section">
@@ -263,6 +256,8 @@
             </div>
         </div>
     </body>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/disableZ.js"></script>
+    <script type="text/javascript" src="js/disableZoom.js"></script>
+    <script src="js/api-google-carousel.js"></script>
+    <script src="js/coudflare-carousel.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
 </html>
