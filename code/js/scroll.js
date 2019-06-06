@@ -13,7 +13,7 @@ $.scrollify({
     offset : 0,
     scrollbars: false,
     standardScrollElements: "",
-    setHeights: true,
+    setHeights: false,
     overflowScroll: true,
     updateHash: true,
     touchScroll:true,
