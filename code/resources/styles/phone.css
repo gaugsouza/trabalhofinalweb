@@ -61,7 +61,7 @@
 }
 .carousel-about-us img.about-us-carousel-images {
     width: 100vw;
-    height: auto;
+    height: 70vh;
 }
 /*See More*/
 .see-more-flex-container{

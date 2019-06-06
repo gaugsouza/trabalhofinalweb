@@ -54,11 +54,13 @@
     justify-content: space-around;
 }
 .carousel-about-us{
+    width: 40vw;
+    height: 100vh;
     overflow: hidden;
 }
 .carousel-about-us img.about-us-carousel-images {
     width: 40vw;
-    height: auto;
+    height: 100vh;
 }
 /*See More*/
 .see-more-flex-container{
