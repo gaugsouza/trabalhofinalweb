@@ -54,7 +54,7 @@
 }
 /*About Us*/
 .about-us{
-    height: 150vh;
+    height: 100vh;
 }
 .carousel-about-us{
     overflow: hidden;
@@ -62,6 +62,9 @@
 .carousel-about-us img.about-us-carousel-images {
     width: 100vw;
     height: 70vh;
+}
+.extra-text{
+    display: none;
 }
 /*See More*/
 .see-more-flex-container{
@@ -96,6 +99,7 @@
     border: 2px solid #471101;
     border-radius: 5px;
     overflow: auto;
+    margin-bottom: 3%;
 }
 .see-more-text-title{
     font-weight: bold;
